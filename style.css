@@ -38,11 +38,11 @@ html, body {
     margin: 0;
 }
 
-/*
+
  .hovered {
     background-color: aquamarine;   
 }
-*/
+
 
 .row {
     flex-grow: 1;

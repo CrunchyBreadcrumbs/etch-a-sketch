@@ -34,17 +34,6 @@ function createGrid(number){
 
             square.addEventListener("mouseenter", () =>{
                 square.classList.add("hovered");
-
-                let currentOpacity = square.style.opacity;
-
-                if(currentOpacity <= 0.9){
-                    square.style.opacity = +square.style.opacity + 0.1;
-                }
-
-                let colors = ["#73d1c9", "#7FFFD4", "#71abd1", "#738ed1"];
-                let random_color = colors[Math.floor(Math.random()*colors.length)];
-                square.style.backgroundColor = random_color;
-  
             });
         }
         divArray.push(rowDiv);
